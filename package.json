@@ -1,0 +1,25 @@
+{
+  "name": "express4-angular-seed",
+  "version": "0.0.1",
+  "description": "Node + Express + Passport + Angular + Mongo ",
+  "main": "app/server/index.js",
+  "scripts": {
+    "start": "node app/server",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedescarpa/express4-angular-seed.git"
+  },
+  "author": "Federico Scarpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedescarpa/express4-angular-seed/issues"
+  },
+  "homepage": "https://github.com/fedescarpa/express4-angular-seed",
+  "dependencies": {
+    "colors": "1.0.3",
+    "express": "4.9.7",
+    "interpolate": "0.1.0"
+  }
+}
