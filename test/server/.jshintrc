@@ -1,6 +1,5 @@
 {
   "extends" : "../../.jshintrc",
-  "node" : true,
   "globals" : {
     "describe" : false,
     "context" : false,
