@@ -1,4 +1,5 @@
 {
+  "node" : true,
   "camelcase" : true,
   "eqeqeq" : true,
   "bitwise" : true,

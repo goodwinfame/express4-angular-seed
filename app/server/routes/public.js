@@ -11,7 +11,7 @@ router.get('/echo', function (request, response, next) {
 router.post('/echo', function (request, response, next) {
   response
     .status(202)
-    .json(request.body || {});
+    .json(request.body);
 });
 
 module.exports = router;
