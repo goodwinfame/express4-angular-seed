@@ -5,6 +5,10 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 var express = require('express');
 
+var environment = require('./environment');
+
 var app = express();
+
+environment.configure(app);
 
 module.exports = app;
