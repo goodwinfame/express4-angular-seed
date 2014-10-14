@@ -1,0 +1,10 @@
+{
+  "client" : "client",
+  "auth" : {
+    "twitter" : {
+      "consumerKey" : "7oulIaw1YSgwKzAGluu1oXtPK",
+      "consumerSecret" : "9mHBqCYkmskVHj8NPZxdl4TyRZGARRt3nTIqdHC9NSm5VL7L9O",
+      "callbackURL": "http://127.0.0.1:3000/auth/twitter/callback"
+    }
+  }
+}

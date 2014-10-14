@@ -1,0 +1,25 @@
+{
+  "name": "express4-angular-seed",
+  "version": "0.0.1",
+  "homepage": "https://github.com/fedescarpa/express4-angular-seed",
+  "authors": [
+    "Federico Scarpa <fedescarpa@gmail.com>"
+  ],
+  "description": "Node + Express + Passport + Angular + Mongo",
+  "main": "app/client/index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/client/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.0"
+  }
+}
