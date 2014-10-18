@@ -2,36 +2,32 @@
 <html>
 
   <head>
+
     <title>Express 4 + Angular seed</title>
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-social/bootstrap-social.css">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/directives/social-button-directive.js"></script>
+    <script type="text/javascript" src="js/controllers/index-controller.js"></script>
+    <script type="text/javascript" src="js/controllers/signin-controller.js"></script>
+
   </head>
-
-  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-  <script type="text/javascript">
-
-    'use strict';
-
-    /* globals angular */
-    angular
-      .module('app', [])
-      .controller('IndexController', ['$scope', '$http', function ($scope, $http) {
-
-          $http.get("/me").success(function (data) {
-            console.log(data);
-            $scope.profile = data;
-          });
-
-      }]);
-
-  </script>
 
   <body ng-app="app">
 
-    <div ng-controller="IndexController">
-
+    <div ng-controller="IndexController" class="container">
       <h3>Hello {{ profile.displayName }}</h3>
-
-      <a href="/auth/twitter" type="button">Signin with twitter</a>
-
+      <a class="btn btn-primary" ng-click="signin()">Signin</a>
     </div>
 
   </body>
