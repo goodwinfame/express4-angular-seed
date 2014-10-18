@@ -12,10 +12,9 @@ module.exports = function (app) {
     saveUninitialized: true,
     secret: 'zedxszrd2ecx63fv7ytg5nb86ylokosfysc5',
     key: 'sessionId',
-    cookie:{
-      httpOnly: true,
-      secure: true
-    }
+    cookie : {
+      httpOnly: true
+    },
   }));
 
 };
